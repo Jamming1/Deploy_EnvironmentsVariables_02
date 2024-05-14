@@ -1,0 +1,14 @@
+environment: test
+server:
+  port: 4000
+welcomeMsg: "Hello from test"
+---
+environment: prod
+server:
+  port: 5000
+welcomeMsg: "Hello from prod"
+---
+environment: development
+server:
+  port: 8000
+welcomeMsg: "This is my third environment....shush"
